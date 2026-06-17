@@ -348,37 +348,9 @@ function hashPassword(plainPassword) {
 const defaultAppDB = {
   users: [
     { username: 'admin', password: hashPassword('123'), role: 'admin' },
-    { username: 'outhdom', password: hashPassword('123'), role: 'teacher', createdBy: 'admin' },
-    { username: 'S1', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-    { username: 'S2', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-     { username: 'S3', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-    { username: 'S4', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-     { username: 'S5', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-    { username: 'S6', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-     { username: 'S7', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-    { username: 'S8', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-     { username: 'S9', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-    { username: 'S10', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-     { username: 'S11', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-    { username: 'S12', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-     { username: 'S13', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-    { username: 'S14', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-     { username: 'S15', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-    { username: 'S16', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-   { username: 'S17', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-    { username: 'S18', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-     { username: 'S19', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-    { username: 'S20', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-     { username: 'S21', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-    { username: 'S22', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-     { username: 'S23', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-    { username: 'S24', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-   { username: 'S25', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-    { username: 'S26', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-     { username: 'S27', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-    { username: 'S28', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-     { username: 'S29', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
-    { username: 'S30', password: hashPassword('123'), role: 'student', createdBy: 'outhdom' }
+    { username: 'teacher1', password: hashPassword('123'), role: 'teacher', createdBy: 'admin' },
+    { username: 'Sok', password: hashPassword('123'), role: 'student', createdBy: 'teacher1' }
+   
   ],
   results: [],
   stages: [
