@@ -40,7 +40,7 @@ const defaultAppDB = {
   users: [
     { username: 'admin', password: hashPassword('123'), role: 'admin' },
     { username: 'teacher1', password: hashPassword('123'), role: 'teacher', createdBy: 'admin' },
-    { username: 'sok', password: hashPassword('123'), role: 'student', createdBy: 'teacher1' }
+    { username: 'S1', password: hashPassword('123'), role: 'student', createdBy: 'teacher1' }
   ],
   results: [],
   stages: [
